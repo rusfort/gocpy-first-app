@@ -1,0 +1,8 @@
+package main
+
+import "std/fmt"
+
+func main() {
+	name := "fist gocpy app!"
+	fmt.Println(f"Привет, {name}!")
+}
