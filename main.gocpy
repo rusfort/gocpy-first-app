@@ -25,9 +25,21 @@ func main() {
 	}
 
 	gtl.PrintBibaBoba()
+	
+	fmt.Println(testError())
 }
 
 @throws
 func testThrows() {
 	throw errors.New("error: this is a test error")
+}
+
+func testError() error {
+	errorCall()?
+
+	return nil
+}
+
+func errorCall() error{
+	return errors.New("error: this is a test error")
 }
