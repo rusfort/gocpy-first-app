@@ -16,6 +16,13 @@ func main() {
 		fmt.Println(elem)
 	}
 
+	unsafe {
+		ptr := malloc(16)
+		free(ptr)
+	}
+
+	unusedVar := 0 //gocpy:ignore:unused
+	
 	try {
 		testThrows()
 	} catch e {
