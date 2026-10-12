@@ -3,10 +3,17 @@ package main
 import (
 	"std/fmt"
 	"std/errors"	
+	
+	"github.com/google/uuid"
+	
 	gtl "github.com/rusfort/gocpy-test-lib"
+	
+	gc "github.com/rusfort/gocpy-first-app/go_code"
 )
 
 func main() {
+	testUuid := uuid.NewString() //gocpy:ignore:unused
+	gc.TestGo()
 	text := "first gocpy app"
 	fmt.Println(f"Привет, {text}!")
 	

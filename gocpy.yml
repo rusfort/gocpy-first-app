@@ -6,3 +6,5 @@ build:
 require:
   gocpy:
     - github.com/rusfort/gocpy-test-lib@v0.1.1
+  go:
+    - github.com/google/uuid@v1.6.0

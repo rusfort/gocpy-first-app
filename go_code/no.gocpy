@@ -1,0 +1,7 @@
+package gocode
+
+import ex "./example.go"
+
+func TestGo(){
+    ex.TestGo()
+}

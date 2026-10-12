@@ -1,2 +1,4 @@
+github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
+github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/rusfort/gocpy-test-lib v0.1.0 h1:dbRzu9idECyUSGP2gTH7oo+fVFDpFlcIpL2rHfFyjSc=
 github.com/rusfort/gocpy-test-lib v0.1.1 h1:5ukaxol2C6DGvtQ0m2kk5stuDFxfGigMt0j3jYlgokI=
