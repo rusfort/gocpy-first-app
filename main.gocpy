@@ -3,6 +3,12 @@ package main
 import "std/fmt"
 
 func main() {
-	name := "fist gocpy app!"
-	fmt.Println(f"Привет, {name}!")
+	text := "first gocpy app"
+	fmt.Println(f"Привет, {text}!")
+	
+	list := []string{"a", "b", "c"}
+
+	for elem in list {
+		fmt.Println(elem)
+	}
 }
