@@ -3,6 +3,7 @@ package main
 import (
 	"std/fmt"
 	"std/errors"	
+	gtl "github.com/rusfort/gocpy-test-lib"
 )
 
 func main() {
@@ -22,6 +23,8 @@ func main() {
 	} finally {
 		fmt.Println("Finally block executed.")
 	}
+
+	gtl.PrintBibaBoba()
 }
 
 @throws

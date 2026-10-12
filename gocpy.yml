@@ -5,6 +5,4 @@ build:
   gc: boehm
 require:
   gocpy:
-    - github.com/john/gocpy-repo@v0.1.0
-  go:
-    - github.com/bob/go-repo@v0.2.0
+    - github.com/rusfort/gocpy-test-lib@v0.1.1
