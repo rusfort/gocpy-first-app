@@ -3,3 +3,8 @@ version: 0.1.0
 build:
   opt: 2
   gc: boehm
+require:
+  gocpy:
+    - github.com/john/gocpy-repo@v0.1.0
+  go:
+    - github.com/bob/go-repo@v0.2.0
